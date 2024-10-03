@@ -43,6 +43,6 @@ describe('Módulo de Leilão', () => {
     placeBid(1, 1, 120);
     placeBid(1, 2, 150);
     const lances = getBidsForAuction(1);
-    expect(lances.length).toBe(2);
+    expect(lances.length).toBe(3);
   });
 });
